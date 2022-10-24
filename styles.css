@@ -1,0 +1,133 @@
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    max-width: 750px;
+    min-width: 375px;
+}
+
+h1{
+    color:hsl(300, 43%, 22%);
+    font-size: 2em;
+    font-weight: 700;
+    padding: 20px 50px 0 50px;
+}
+
+p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+/* Header styles*/
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.title-card{
+text-align: center;
+padding: 0 20px;
+}
+
+.stars{
+    padding-top: 10px;
+}
+
+svg{
+    padding: 0 3px;
+}
+
+.ratings {
+    width: 100%;
+}
+
+.ratings-btn{
+    background: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    line-height: 50%;
+    padding: 5px 70px;
+    margin: 15px 0;
+    text-align: center;
+    transition: background .8s;
+}
+.ratings-btn p{
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.ratings-btn:hover {
+    background: hsl(300, 1%, 55%);
+}
+
+/*Header styles ends*/
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Main Styles*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimony {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 0 20px 20px 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 10px 10px 0;
+}
+
+.top img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+.buyer {
+    color: white;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.verified-txt {
+    color: hsl(333, 80%, 67%);
+    margin: 0 0 0 0;
+}
+
+.testimony-txt p {
+    color: white;
+    line-height: 180%;
+}
+
+
+/* Media Query for desktop! */
+@media (min-width:750px) {
+
+}
