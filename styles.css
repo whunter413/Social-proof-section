@@ -11,9 +11,10 @@ body {
     align-items: center;
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
-    width: 100%;
-    max-width: 750px;
+    margin: none;
+    padding: none;
     min-width: 375px;
+    width: 100%;
 }
 
 h1{
@@ -53,16 +54,21 @@ svg{
 
 .ratings {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ratings-btn{
     background: hsl(300, 24%, 96%);
     border-radius: 10px;
     line-height: 50%;
-    padding: 5px 70px;
+    padding: 5px 20px;
     margin: 15px 0;
     text-align: center;
     transition: background .8s;
+    width: 70%;
 }
 .ratings-btn p{
     color:hsl(300, 43%, 22%);
@@ -161,7 +167,7 @@ main {
     /*Top Styles */
 
     header{
-        width: 80%;
+        width: 85%;
     }
 
     .title-card {
@@ -192,7 +198,7 @@ main {
     }
 
     .ratings-btn {
-        width: 60%;
+        width: 70%;
         display: flex;
         justify-content: center;
         padding: 10px 30px;
@@ -219,7 +225,7 @@ main {
     /* Bottom styles */
 
     main{
-        width: 80%;
+        width: 85%;
         box-sizing: border-box;
         justify-content: space-between;
     }
